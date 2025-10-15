@@ -1,10 +1,10 @@
-package ru.tuffi.template_java_spring_keycloak.rest;
+package ru.tuffi.taskflow.rest;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.tuffi.template_java_spring_keycloak.dto.EventDto;
-import ru.tuffi.template_java_spring_keycloak.dto.EventPageDto;
-import ru.tuffi.template_java_spring_keycloak.service.EventService;
+import ru.tuffi.taskflow.dto.EventDto;
+import ru.tuffi.taskflow.dto.EventPageDto;
+import ru.tuffi.taskflow.service.EventService;
 
 @RestController
 @RequiredArgsConstructor

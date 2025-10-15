@@ -1,4 +1,4 @@
-package ru.tuffi.template_java_spring_keycloak.dto;
+package ru.tuffi.taskflow.dto;
 
 
 import java.util.List;

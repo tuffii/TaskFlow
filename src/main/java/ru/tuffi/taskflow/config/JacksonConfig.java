@@ -1,4 +1,4 @@
-package ru.tuffi.template_java_spring_keycloak.config;
+package ru.tuffi.taskflow.config;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;

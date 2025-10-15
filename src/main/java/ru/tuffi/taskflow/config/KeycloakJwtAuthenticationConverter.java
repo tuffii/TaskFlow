@@ -1,4 +1,4 @@
-package ru.tuffi.template_java_spring_keycloak.config;
+package ru.tuffi.taskflow.config;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,10 +1,10 @@
-package ru.tuffi.template_java_spring_keycloak;
+package ru.tuffi.taskflow;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TemplateJavaSpringKeycloakApplicationTests {
+class TaskflowApplicationTests {
 
 	@Test
 	void contextLoads() {

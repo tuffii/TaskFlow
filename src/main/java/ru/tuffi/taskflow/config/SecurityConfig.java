@@ -1,4 +1,4 @@
-package ru.tuffi.template_java_spring_keycloak.config;
+package ru.tuffi.taskflow.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,8 +13,8 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/actuator/**").hasAuthority("ROLE_template.admin")
-                        .requestMatchers("/api/v1/events/**").hasAnyAuthority("ROLE_template.user", "ROLE_template.admin")
+                        .requestMatchers("/actuator/**").hasAuthority("ROLE_taskflow.admin")
+                        .requestMatchers("/api/v1/events/**").hasAnyAuthority("ROLE_taskflow.user", "ROLE_taskflow.admin")
                         .anyRequest().authenticated()
                 )
                 .oauth2ResourceServer(oauth2 -> oauth2

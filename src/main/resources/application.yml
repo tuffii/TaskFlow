@@ -1,20 +1,20 @@
 spring:
   application:
-    name: template-java-spring-keycloak
+    name: taskflow-java-spring-keycloak
   security:
     oauth2:
       client:
         registration:
           keycloak:
             provider: keycloak
-            client-id: template
+            client-id: taskflow
             client-secret: <CLIENT_KEY>
-            client-name: template
+            client-name: taskflow
             authorization-grant-type: authorization_code
             scope: openid, profile, email
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:9090/realms/template
+          issuer-uri: http://localhost:9090/realms/taskflow
 
 server:
   port: 8091

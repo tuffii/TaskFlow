@@ -1,11 +1,11 @@
-package ru.tuffi.template_java_spring_keycloak.service;
+package ru.tuffi.taskflow.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.tuffi.template_java_spring_keycloak.dto.EventDto;
-import ru.tuffi.template_java_spring_keycloak.dto.EventPageDto;
-import ru.tuffi.template_java_spring_keycloak.dto.EventType;
+import ru.tuffi.taskflow.dto.EventDto;
+import ru.tuffi.taskflow.dto.EventPageDto;
+import ru.tuffi.taskflow.dto.EventType;
 
 import java.util.Random;
 import java.util.UUID;
